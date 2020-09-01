@@ -1,0 +1,25 @@
+Test suite constrained-arrays-test: RUNNING...
+
+Bounds tests
+  Simple rectilinear arrays FAILED [1]
+  Transposition
+  Upper / lower triangular matrices
+
+Failures:
+
+  test/Spec.hs:16:7: 
+  1) Bounds tests Simple rectilinear arrays
+       uncaught exception: ErrorCall
+       Prelude.undefined
+       CallStack (from HasCallStack):
+         error, called at libraries/base/GHC/Err.hs:78:14 in base:GHC.Err
+         undefined, called at test/Spec.hs:16:7 in main:Main
+
+  To rerun use: --match "/Bounds tests/Simple rectilinear arrays/"
+
+Randomized with seed 1163360405
+
+Finished in 0.0004 seconds
+3 examples, 1 failure
+Test suite constrained-arrays-test: FAIL
+Test suite logged to: /home/huginn/code/constrained-arrays/dist-newstyle/build/x86_64-linux/ghc-8.6.5/constrained-arrays-0.1.0.0/t/constrained-arrays-test/test/constrained-arrays-0.1.0.0-constrained-arrays-test.log
